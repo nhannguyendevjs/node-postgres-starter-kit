@@ -4,14 +4,14 @@ I'm Nhan, a software engineer from Vietnam, currently living in Ho Chi Minh City
 
 ## What I do
 
-I'm a web developer, and I am really passionate about learning web development.
+I'm a web developer, and I am passionate about learning web development.
 
 ## Things I code with
 
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge)
 ![NPM](https://img.shields.io/badge/NPM-CB3837?logo=npm&logoColor=white&style=for-the-badge)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge)
-![CSS3](https://img.shields.io/badge/CSS3-2F4BD8?logo=css3&logoColor=white&style=for-the-badge)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge)
+![CSS](https://img.shields.io/badge/CSS3-2F4BD8?logo=css3&logoColor=white&style=for-the-badge)
 ![SASS](https://img.shields.io/badge/Sass-CC6699?logo=sass&logoColor=white&style=for-the-badge)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge)
