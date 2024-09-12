@@ -12,9 +12,9 @@ import { V1Router } from './routes/v1/v1.mjs';
 
 // Bootstrap modules and services
 import * as AppConfigModule from './app.config.mjs';
-import * as LoggerService from './services/logger/logger.mjs';
-import * as BullMQService from './services/bullmq/bullmq.mjs';
 import * as PostgresService from './services/postgres/postgres.mjs';
+import * as BullMQService from './services/bullmq/bullmq.mjs';
+import * as LoggerService from './services/logger/logger.mjs';
 
 await AppConfigModule.bootstrap();
 await LoggerService.bootstrap();

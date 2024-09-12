@@ -16,6 +16,7 @@ export const RequestConfigs = {
 export const LoggerConfigs = {
   ENABLE_LOGGER_CONSOLE: process.env.ENABLE_LOGGER_CONSOLE,
   ENABLE_LOGGER_FILE: process.env.ENABLE_LOGGER_FILE,
+  ENABLE_LOGGER_POSTGRES: process.env.ENABLE_LOGGER_POSTGRES,
 };
 
 export const JWTConfigs = {
