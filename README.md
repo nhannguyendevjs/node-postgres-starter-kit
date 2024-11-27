@@ -1,6 +1,6 @@
 # node-postgres-starter-kit
 
-Node postgres starter kit
+Node Postgres starter kit
 
 ## Author
 
@@ -38,7 +38,7 @@ Released under the [MIT License](LICENSE).
 
 ### Installation
 
-You can download and install Docker on https://docs.docker.com/desktop/install/windows-install/
+You can download and install Docker at https://www.docker.com/
 
 ### Network
 
