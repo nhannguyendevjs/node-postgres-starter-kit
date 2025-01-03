@@ -42,7 +42,6 @@ export const BullMQConfigs = {
   BULLMQ_ADMIN_PATH: process.env.BULLMQ_ADMIN_PATH,
 };
 
-
 export const bootstrap = async () => {
   console.log(`{"level":"info","message":"App Config is ready to use","timestamp":"${new Date().toISOString()}"}`);
 };
