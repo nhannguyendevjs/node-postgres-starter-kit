@@ -1,6 +1,7 @@
 import { PostgresConfigs, PrismaConfigs } from './app.config.mjs';
 import { Logger } from './services/logger/logger.mjs';
 import * as PostgresService from './services/postgres/postgres.mjs';
+import * as PrismaService from './services/prisma/prisma.mjs';
 
 const cleanUp = async (eventType, eventDetails) => {
   Logger.log('info', `Server is stop from event::${eventType}`, eventDetails);
@@ -11,7 +12,7 @@ const cleanUp = async (eventType, eventDetails) => {
   }
 
   if (PrismaConfigs.ENABLE_PRISMA) {
-    await Prisma.disconnect();
+    await PrismaService.disconnect();
     Logger.log('info', `Prisma connection closed`);
   }
 
@@ -19,3 +20,4 @@ const cleanUp = async (eventType, eventDetails) => {
 };
 
 export { cleanUp };
+

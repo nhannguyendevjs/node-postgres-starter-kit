@@ -11,7 +11,9 @@
     "test": "vitest",
     "test-ui": "vitest --ui --coverage.enabled=true",
     "test-coverage": "vitest run --coverage",
-    "start": "node --env-file=.env index.mjs"
+    "start": "npm run dev",
+    "dev": "node --env-file=environments/.dev.env index.mjs",
+    "prod": "node --env-file=environments/.prod.env index.mjs"
   },
   "repository": {
     "type": "git",
@@ -48,6 +50,7 @@
     "mongodb": "6.12.0",
     "mongoose": "8.9.3",
     "multer": "1.4.5-lts.1",
+    "pg": "8.13.1",
     "redis": "4.7.0",
     "swagger-jsdoc": "6.2.8",
     "swagger-ui-express": "5.0.1",
