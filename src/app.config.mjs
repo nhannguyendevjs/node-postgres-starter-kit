@@ -27,6 +27,17 @@ export const JWTConfigs = {
   JWT_REFRESH_TOKEN_EXPIRATION_TIME: process.env.JWT_REFRESH_TOKEN_EXPIRATION_TIME,
 };
 
+export const RedisConfigs = {
+  ENABLE_REDIS: process.env.ENABLE_REDIS,
+  REDIS_HOST: process.env.REDIS_HOST,
+  REDIS_PORT: process.env.REDIS_PORT,
+};
+
+export const BullMQConfigs = {
+  ENABLE_BULLMQ: process.env.ENABLE_BULLMQ,
+  BULLMQ_ADMIN_PATH: process.env.BULLMQ_ADMIN_PATH,
+};
+
 export const PostgresConfigs = {
   ENABLE_POSTGRES: process.env.ENABLE_POSTGRES,
   POSTGRES_URI: process.env.POSTGRES_URI,
@@ -35,11 +46,6 @@ export const PostgresConfigs = {
 export const PrismaConfigs = {
   ENABLE_PRISMA: process.env.ENABLE_PRISMA,
   PRISMA_DATABASE_URL: process.env.PRISMA_DATABASE_URL,
-};
-
-export const BullMQConfigs = {
-  ENABLE_BULLMQ: process.env.ENABLE_BULLMQ,
-  BULLMQ_ADMIN_PATH: process.env.BULLMQ_ADMIN_PATH,
 };
 
 export const bootstrap = async () => {
