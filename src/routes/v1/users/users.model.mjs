@@ -36,7 +36,6 @@ const readUser = async (req) => {
 const updateUser = async (req) => {
   try {
     const { query, data } = req.body;
-
     const { success, error } = UserUpdatedSchema.safeParse(data);
 
     if (success && query) {
